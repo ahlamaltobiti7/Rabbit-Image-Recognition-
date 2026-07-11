@@ -41,34 +41,41 @@ Multiple images were collected and uploaded for each class to train the model.
 
 ---
 
-## Project Workflow
+## Project Steps
 
-### 1. Dataset Preparation
-Two image classes were created in Google Teachable Machine, and training images were uploaded for each class.
+### 1. Create the Dataset
+Two image classes were created in Teachable Machine:
+- Black Rabbit
+- White Rabbit
 
-### 2. Model Training
+Training images were uploaded for both classes.
+
+### 2. Train the Model
 The model was trained using the uploaded images until the training process was completed successfully.
 
-### 3. Model Export
-The trained model was exported in **TensorFlow (Keras)** format, generating the following files:
+### 3. Export the Model
+The trained model was exported in **TensorFlow → Keras** format.
 
+The exported files include:
 - `keras_model.h5`
 - `labels.txt`
 
-### 4. Model Testing
-The exported model was uploaded to Google Colab. A Python script was used to:
+### 4. Test the Model
+The exported model was uploaded to Google Colab.
 
+A Python script was used to:
 - Load the trained model.
 - Read an input image.
 - Preprocess the image.
-- Predict the image class.
+- Predict its class.
 - Display the prediction result.
 
 ---
 
 ## Model Evaluation
 
-The trained model was tested using a rabbit image. In the demonstrated example, the model correctly classified the image as **White Rabbit** with **100% confidence**.
+The model was tested using a rabbit image after training. In the demonstrated example, the model successfully predicted the correct class (**White Rabbit**) with **100% confidence**.
+
 
 ---
 
