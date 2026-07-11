@@ -77,7 +77,7 @@ The trained model was tested using a rabbit image. In the demonstrated example, 
 - `rabbit_image_recognition.py`
 - `keras_model.h5`
 - `labels.txt`
-- `images.jpg`
+- `teasting image.jpg`
 - `Google Colab output.png`
 - `Teachable Machine output.png`
 
