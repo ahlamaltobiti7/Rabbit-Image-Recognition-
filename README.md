@@ -74,7 +74,10 @@ A Python script was used to:
 
 ## Model Evaluation
 
-The model was tested using a rabbit image after training. In the demonstrated example, the model successfully predicted the correct class (**White Rabbit**) with **100% confidence**.
+The trained model was evaluated on both platforms using a test image:
+
+* **Google Teachable Machine:** The web preview successfully classified the image as **White Rabbit** with **100% confidence**.
+* **Google Colab Script:** The exported Keras model accurately predicted the correct class (**White Rabbit**) with a precise confidence score of **0.996983** (approximately **99.7%**).
 
 
 ---
