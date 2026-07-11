@@ -115,4 +115,3 @@ Through this project, I learned how to:
 - Export a trained model in TensorFlow (Keras) format.
 - Use Python to load and test the trained model.
 - Perform image prediction in Google Colab.
-- Document and organize a machine learning project using GitHub.
