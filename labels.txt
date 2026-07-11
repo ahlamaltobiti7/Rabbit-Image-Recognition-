@@ -1,0 +1,2 @@
+0 black rabbit
+1 white rabbit
